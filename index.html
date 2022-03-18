@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./imagens/logo (2).png">
+
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="./responsividade.css">
+
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <!--style-->
+    <link rel="stylesheet" href="./style.css">
+
+
+    <title>AD Design</title>
+
+
+
+  </head>
+  <body>
+         <!--logo e nome-->
+        <header id="inicio" class="d-flex  justify-content-between align-items-center bg-light p-2">
+            <img class="logo bg-light rounded-circle shadow-lg ms-3" src="imagens/logo.png" width="80" alt="logo">
+            <img class="logo-nome me-3" src="./imagens/logo-nome.png" width="250" alt="logo-nome">
+        </header>
+
+        <!--barra de navegação-->
+        <nav class="navbar navbar-expand-md navbar-light bg-dark mb-2 shadow-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a href="./index.html#moveis" class="nav-link me-3 text-light" data-toggle="tab">Móveis</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./index.html#pufs" class="nav-link me-3 text-light" data-toggle="tab">Pufs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./index.html#cabeceira-recamiers" class="nav-link me-3 text-light" data-toggle="tab">Cabeceiras e Recamiers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./index.html#projetos" class="nav-link me-3 text-light" data-toggle="tab">Projetos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./index.html#quem-somos" class="nav-link me-3 text-light" data-toggle="tab">Quem somos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+             
+          <!--carrossel banners-->
+            <div id="carouselExampleIndicators" class="carousel slide d-flex justify-content-center-center shadow-lg" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                   <a href=""><img src="./imagens/banner1.png" class="d-block w-100" alt="banner"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><img src="./imagens/banner2.png" class="d-block w-100" alt="banner"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href=""><img src="./imagens/banner3.png" class="d-block w-100" alt="banner"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href=""><img src="./imagens/banner4.png" class="d-block w-100" alt="banner"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href=""><img src="./imagens/banner5.png" class="d-block w-100" alt="banner"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://wa.me/message/GV4V7AAOJWLDL1"><img src="./imagens/banner6.png" class="d-block w-100" alt="banner"></a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+               <!--carrossel móveis-->
+              <div class="container-fluid container mt-2">
+                <h4 id="moveis">Móveis</h4>
+                <div class="row">
+                    <div class="col-auto m-auto">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item mb-4">
+                                <div class="card border-0 shadow">
+                                    <img src="./imagens/mesa-palito.png" alt="Mesa com pé palito" class="card-img-top m-auto">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h5>Mesa com pé palito e espelho</h5>
+                                            <h6 class="text-success">A vista</h6>
+                                            <h2 class="text-danger">119,90</h2>
+                                            <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="item">
+                                <div class="card border-0 shadow">
+                                    <img src="./imagens/mesa-de-centro.png" alt="Mesa de centro" class="card-img-top m-auto ">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h5>Mesa de centro com espelho</h5>
+                                            <h6 class="text-success">A vista</h6>
+                                            <h2 class="text-danger">269,90</h2>
+                                            <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="card border-0 shadow">
+                                    <img src="./imagens/criado.png" alt="Criado mudo" class="card-img-top m-auto">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                          <h5>Criado com gaveta</h5>
+                                          <h6 class="text-success">A vista</h6>
+                                          <h2 class="text-danger">149,90</h2>
+                                          <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="card border-0 shadow">
+                                    <img src="./imagens/criado-luminaria.png" alt="Criado com luminária" class="card-img-top m-auto">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                          <h5>Criado com luminária</h5>
+                                          <h6 class="text-success">A vista</h6>
+                                          <h2 class="text-danger">149,90</h2>
+                                          <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--carrossel pufs-->
+            <div class="container-fluid container">
+              <h4 id="pufs">Pufs</h4>
+              <div class="row">
+                  <div class="col-auto m-auto">
+                      <div class="owl-carousel owl-theme">
+                          <div class="item2 mb-4">
+                              <div class="card border-0 shadow">
+                                  <img src="./imagens/puf.png" alt="Puf" class="card-img-top m-auto">
+                                  <div class="card-body">
+                                      <div class="card-title">
+                                        <h5>Puf capitonê-tecido courino</h5>
+                                        <h6 class="text-success">A vista</h6>
+                                        <h2 class="text-danger">89,90</h2>
+                                        <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+      
+                          <div class="item2">
+                              <div class="card border-0 shadow">
+                                  <img src="./imagens/puf-redondo-bau.png" alt="Puf redondo" class="card-img-top m-auto">
+                                  <div class="card-body">
+                                      <div class="card-title">
+                                        <h5>Puf baú redondo-tecido suede</h5>
+                                        <h6 class="text-success">A vista</h6>
+                                        <h2 class="text-danger">149,90</h2>
+                                        <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="item2">
+                            <div class="card border-0 shadow">
+                                <img src="./imagens/puf1.png" alt="Puf capitonê em suede" class="card-img-top m-auto">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                      <h5>Puf capitonê-tecido suede</h5>
+                                      <h6 class="text-success">A vista</h6>
+                                      <h2 class="text-danger">79,90</h2>
+                                      <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item2">
+                          <div class="card border-0 shadow">
+                              <img src="./imagens/puf3.png" alt="Puf em suede" class="card-img-top m-auto">
+                              <div class="card-body">
+                                  <div class="card-title">
+                                    <h5>Puf liso-tecido suede</h5>
+                                    <h6 class="text-success">A vista</h6>
+                                    <h2 class="text-danger">69,90</h2>
+                                    <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+             <!--carrossel cabeceiras e recamiers-->
+            <div class="container-fluid container">
+              <h4 id="cabeceira-recamiers">Cabeceiras e Recamiers</h4>
+              <div class="row">
+                  <div class="col-auto m-auto">
+                      <div class="owl-carousel owl-theme">
+                          <div class="item3 mb-4">
+                              <div class="card border-0 shadow">
+                                  <img src="./imagens/recamier-gaveta1.png" alt="Recamier com gaveta" class="card-img-top m-auto">
+                                  <div class="card-body">
+                                      <div class="card-title">
+                                        <h5>Recamier com gaveta tamanho padrão-tecido suede</h5>
+                                        <h6 class="text-success">A vista</h6>
+                                        <h2 class="text-danger">499,90</h2>
+                                        <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="item3">
+                              <div class="card border-0 shadow">
+                                  <img src="./imagens/recamier-dakar.png" alt="Recamier com 2 gavetas" class="card-img-top m-auto">
+                                  <div class="card-body">
+                                      <div class="card-title">
+                                        <h5>Recamier com 2 gavetas tamanho padrão-tecido dakar</h5>
+                                        <h6 class="text-success">A vista</h6>
+                                        <h2 class="text-danger">599,90</h2>
+                                        <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="item3">
+                              <div class="card border-0 shadow">
+                                  <img src="./imagens/cabeceira-painel-capitone.png" alt="Cabeceira painel capitonê suede" class="card-img-top m-auto">
+                                  <div class="card-body">
+                                      <div class="card-title">
+                                        <h5>Cabeceira tipo painel tamanho padrão-tecido suede</h5>
+                                        <h6 class="text-success">A vista</h6>
+                                        <h2 class="text-danger">149,90</h2>
+                                        <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="item3">
+                              <div class="card border-0 shadow">
+                                  <img src="./imagens/cebeceira-painel-modular.png" alt="Cabeceira painel modular" class="card-img-top m-auto">
+                                  <div class="card-body">
+                                      <div class="card-title">
+                                        <h5>Cabeceira tipo painel tamanho padrão-tecido dakar</h5>
+                                        <h6 class="text-success">A vista</h6>
+                                        <h2 class="text-danger">119,90</h2>
+                                        <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="item3">
+                            <div class="card border-0 shadow">
+                                <img src="./imagens/cabeceira-capitone.png" alt="Cabeceira capitonê" class="card-img-top m-auto">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                      <h5>Cabeceira capitonê tamanho padrão-tecido suede</h5>
+                                      <h6 class="text-success">A vista</h6>
+                                      <h2 class="text-danger">249,90</h2>
+                                      <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item3">
+                          <div class="card border-0 shadow">
+                              <img src="./imagens/cabeceira-modular.png" alt="Cabeceira modular" class="card-img-top m-auto">
+                              <div class="card-body">
+                                  <div class="card-title">
+                                    <h5>Cabeceira modular tamanho padrão-tecido dakar</h5>
+                                    <h6 class="text-success">A vista</h6>
+                                    <h2 class="text-danger">299,90</h2>
+                                    <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank"><button class="btn btn-danger">Comprar</button></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+      
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Container de galeria de projetos -->
+          <div class="container-projetos container position-relative" style="max-width:600px">
+            <h4 id="projetos">Projetos</h4>
+            <p>Trabalhamos também com projetos, vamos até o seu endereço 
+              e fazemos o orçamento sem compromisso, atendemos na cidade Iguatu-CE.</p>
+  
+
+            <!-- imagens de projetos -->
+            <div class="meuSlides shadow">
+                <img src="./imagens/p1.png" style="width:100%">
+            </div>
+
+            <div class="meuSlides shadow">
+                <img src="./imagens/p2.png" style="width:100%">
+            </div>
+
+            <div class="meuSlides shadow">
+                <img src="./imagens/p3.png" style="width:100%">
+            </div>
+
+            <div class="meuSlides shadow">
+                <img src="./imagens/p4.png" style="width:100%">
+            </div>
+
+            <div class="meuSlides shadow">
+                <img src="./imagens/p5.png" style="width:100%">
+            </div>
+
+            <div class="meuSlides shadow">
+                <img src="./imagens/p6.png" style="width:100%">
+            </div>
+
+            <!-- Botões -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Descrição das imagens -->
+            <div class="container-descricao">
+              <p id="descricao"></p>
+            </div>
+
+            <!-- Miniaturas das imagens -->
+            <div class="row mb-4">
+              <div class="column">
+                <img class="demo" src="./imagens/p1.png" style="width:100%" onclick="currentSlide(1)" alt="Cabeceira modular vertical suede e recamier">
+              </div>
+              <div class="column">
+                <img class="demo" src="./imagens/p2.png" style="width:100%" onclick="currentSlide(2)" alt="Cabeceira modular vertical dakar">
+              </div>
+              <div class="column">
+                <img class="demo" src="./imagens/p3.png" style="width:100%" onclick="currentSlide(3)" alt="Cabeceira modular horizontal dakar solteiro">
+              </div>
+              <div class="column">
+                <img class="demo" src="./imagens/p4.png" style="width:100%" onclick="currentSlide(4)" alt="Cabeceira modular horizontal dakar">
+              </div>
+              <div class="column">
+                <img class="demo" src="./imagens/p5.png" style="width:100%" onclick="currentSlide(5)" alt="Cabeceira modular horizontal suede">
+              </div>
+              <div class="column">
+                <img class="demo" src="./imagens/p6.png" style="width:100%" onclick="currentSlide(6)" alt="Cabeceira modular horizontal suede">
+              </div>
+            </div>
+          </div>
+
+         <!-- Container de galeria de projetos -->
+          <div class="container text-center">
+            <h4 id="quem-somos">Quem somos</h4>
+            <p>A AD Design é uma empresa expecializada em moveis pequenos e estofados em geral com ótimo atedimento ao cliente. <br>
+              Criada em 2020 e localizada na cidade Iguatu-Ceara, em nosso site você encontra todos os nossos contatos 
+              e redes sociais.
+            </p>
+          </div>
+          
+         <!-- Botão inicio -->
+          <div>
+            <a class="text-dark text-center" href="./index.html#inicio"><h4>Início</h4></a>
+          </div>
+           
+         <!-- footer e redes sociais -->
+          <footer class="bg-light text-dark text-center p-3">
+            <a href="https://www.youtube.com/channel/UCglanYDVOISAoefH_IHilUg" target="_blank">	
+              <img src="./imagens/logo-youtube.png" alt="botâo do youtube"></a>
+          
+            <a href="https://www.instagram.com/addesing10/" target="_blank">              
+              <img src="./imagens/logo-instagran.png" alt="botão do instagran"></a>
+      
+            <a href="https://www.facebook.com/profile.php?id=100070887349356" target="_blank">        
+              <img src="./imagens/logo-facebook.png" alt="botão do facebook"></a>
+
+              <a href="https://wa.me/message/GV4V7AAOJWLDL1" target="_blank">       
+                <img src="./imagens/logo-whatsapp.png" alt="botão do whatsapp"></a>
+                <hr>
+
+          <!-- Direitos e contato -->
+            <div>
+             <img src="./imagens/logo-nome.png" width="120px" alt="Logo nome">
+             <p>© 2020 AD Design móveis e estofados <br> todos os direitos reservados <br>Cep:63508-770</p>
+            </div>
+                        
+             <div class="d-flex justify-content-center text-align-center">
+               <p>Por Alex Domingos:</p>
+               <a href="mailto:https://mail.google.com/mail/u/0/?tab=rm#inbox" target="_blank">@AlexDomingos</a>
+            </div>
+          </footer>
+             
+
+     
+    <!--script jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--script bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <!--script-->
+    <script src="./script.js"></script> 
+
+        
+    
+  </body>
+</html>

@@ -1,0 +1,25 @@
+
+@media screen and (max-width:700px){
+    .logo{
+        width: 60px;
+    }
+
+    .logo-nome{
+        width: 110px;
+    }
+
+    .carousel-indicators{
+        visibility: collapse;
+    }
+
+    .carousel-control-prev{
+        visibility: collapse;
+    }
+
+    .carousel-control-next{
+        visibility: collapse;
+    }
+
+
+    
+}
